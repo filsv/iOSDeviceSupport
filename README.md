@@ -1,7 +1,7 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 12.1 (16E5181e))
+Xcode iPhoneOS DeviceSupport (6.0 - 12.2 (16E5181e))
 
-Device Support files for Xcode, from iOS 6, up to iOS 12.1 (16E5181e).
+Device Support files for Xcode, from iOS 6, up to 12.2 (16E5181e).
 
 How to:
 
