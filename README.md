@@ -8,7 +8,9 @@ How to:
 1) Download version you need listed above;
 2) Unzip it;
 3) Close Xcode;
-4) Copy and paste unziped folder by path: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" hierarchy like this:
+4) Copy and paste unziped folder by path: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" 
+
+hierarchy like this:
 ![alt text](https://github.com/filsv/watchOSDeviceSupport/raw/master/Screen%20Shot%202019-08-02%20at%2015.05.08.png)
 5) Reopen Xcode;
 
