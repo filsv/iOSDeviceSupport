@@ -9,6 +9,7 @@ How to:
 2) Unzip it;
 3) Close Xcode;
 4) Copy and paste unziped folder by path: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" (hierarchy like - https://github.com/filsv/iPhoneOSDeviceSupport/blob/master/Screen%20Shot%202018-09-16%20at%2019.52.35.png);
+![alt text](https://github.com/filsv/watchOSDeviceSupport/raw/master/Screen%20Shot%202019-08-02%20at%2015.05.08.png)
 5) Reopen Xcode;
 
 Thank You.
