@@ -10,10 +10,8 @@ How to:
 3) Close Xcode;
 4) Copy and paste unziped folder by path: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" 
 
-<p align="center">
 ![alt text](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/Screen%20Shot%202019-08-02%20at%2015.09.55.png)
- hierarchy like this:
-</p>
+(hierarchy like this)
 
 5) Reopen Xcode;
 
