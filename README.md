@@ -1,7 +1,7 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 13.0 Beta)
+Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
 
-Device Support files for Xcode, from iOS 6, up to 13.0 Beta.
+Device Support files for Xcode, from iOS 6, up to 13.1 (17A5821e).
 
 How to:
 
