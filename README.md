@@ -1,5 +1,5 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
+Xcode iPhoneOS DeviceSupport (6.0 - 13.2)
 
 **Latest releases:**</br>
 
