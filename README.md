@@ -2,8 +2,8 @@
 Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
 
 **Last Releases:**</br>
-**iOS 13.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/blob/master/13.1.zip) </br>
-**iOS 13.2** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/blob/master/13.2.zip)
+**iOS 13.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.1.zip) </br>
+**iOS 13.2** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.2.zip)
 
 👇👇👇👇👇
 </br>
