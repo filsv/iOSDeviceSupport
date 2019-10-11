@@ -1,7 +1,7 @@
 # iPhoneOSDeviceSupport
 Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
 
-&#x1F34F;&#x1F34F;&#x1F34F;
+☝☝☝☝☝
 </br>
 **Update:**
 </br>
