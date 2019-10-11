@@ -1,11 +1,10 @@
 # iPhoneOSDeviceSupport
 Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
 
-<font color="red">
+&#x1F34F;&#x1F34F;&#x1F34F;
 **Update:
 To get iOS 13.1 (******) works try to rename a folder from this "13.1 (17A5821e)" to "13.1 (needed version)" eg. "13.1 (17A5844a)".
 The same for iOS 13.2 (******).
-</font>
 
 Device Support files for Xcode, from iOS 6, up to 13.1 (17A5821e).
 
