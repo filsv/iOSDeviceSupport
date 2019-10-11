@@ -5,7 +5,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 13.1 (17A5821e))
 </br>
 **Update:
 </br>
-To get iOS 13.1 (version) works try to rename a folder from this "13.1 (17A5821e)" to "13.1 (needed version)" eg. "13.1 (17A5844a)".
+***To get iOS 13.1 (version) works try to rename a folder from this "13.1 (17A5821e)" to "13.1 (needed version)" eg. "13.1 (17A5844a)".
 The same for iOS 13.2 (version).
 
 Device Support files for Xcode, from iOS 6, up to 13.1 (17A5821e).
