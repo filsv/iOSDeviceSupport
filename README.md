@@ -1,12 +1,13 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 13.2)
+Xcode iPhoneOS DeviceSupport (6.0 - 13.5)
 
 **Latest releases:**</br>
 
 **iOS 13.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.1.zip) </br>
 **iOS 13.2** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.2.zip) </br>
 **iOS 13.3** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.3.zip) </br>
-**iOS 13.4** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.4.zip)
+**iOS 13.4** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.4.zip) </br>
+**iOS 13.5** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.5.zip)
 
 </br>
 </br>
@@ -17,7 +18,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 13.2)
 - Like this: iOS 13.4 ~> iOS 13.4.2 (17A5844a);
 ```
 
-Device Support files for Xcode, from iOS 6, up to 13.4.
+Device Support files for Xcode, from iOS 6, up to 13.5.
 
 How to:
 
