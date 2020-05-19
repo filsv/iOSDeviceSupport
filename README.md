@@ -24,7 +24,10 @@ How to:
 1) Download version you need listed above;
 2) Unzip it;
 3) Close Xcode;
-4) Copy and paste unziped folder by path: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" 
+4) Copy and paste unziped folder by path: 
+```
+"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/" 
+```
 
 <p align="center">hierarchy like this:</p>
 
