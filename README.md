@@ -14,8 +14,8 @@ Xcode iPhoneOS DeviceSupport (6.0 - 13.5)
 
 🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 ```diff
-- To get iOS 13.(version) [example iOS 13.4.1] works with iOS 13.4, just rename a folder.
-- Like this: iOS 13.4 ~> iOS 13.4.2 (17A5844a);
+- To get iOS 13.(version) [example iOS 13.5.1] works with iOS 13.4, just rename a folder.
+- Like this: 13.5 ~> 13.5.1 (17F80);
 ```
 
 Device Support files for Xcode, from iOS 6, up to 13.5.
