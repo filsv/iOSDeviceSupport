@@ -27,7 +27,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.0)
 ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
 **Restart Xcode**</br>
 
-How to:
+**How to:**
 
 1) Download version you need listed above;
 2) Unzip it;
