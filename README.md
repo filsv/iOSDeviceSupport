@@ -22,10 +22,10 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.0)
 **Support iOS 14 devices with Xcode 11.5:**</br>
 
 **[Download iOS 14.0 Support Files]**(https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip) </br>
-**Unzip it**
-**Put unzipped folder in into path:**
-```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```
-**Restart Xcode**
+**Unzip it**</br>
+**Put unzipped folder in into path:**</br>
+```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
+**Restart Xcode**</br>
 
 
 Device Support files for Xcode, from iOS 6, up to 14.0.
