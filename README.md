@@ -20,7 +20,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.0)
 - Like this: 13.5 ~> 13.5.1 (17F80);
 ```
 
-**How to support iOS 14 devices with Xcode 11.5:**</br> (the same a how to below)
+**How to support iOS 14 devices with Xcode 11.5:**</br> (below)
 
 **[Download iOS 14.0 Support Files](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip)** </br>
 **Unzip it**</br>
