@@ -1,8 +1,10 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 14.0)
+Xcode iPhoneOS DeviceSupport (6.0 - 14.2)
 
 **Latest releases:**</br>
 
+**iOS 14.2** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.2.zip) </br>
+**iOS 14.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.1.zip) </br>
 **iOS 14.0** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip) </br>
 **iOS 13.7** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.7.zip) </br>
 **iOS 13.6** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.6.zip) </br>
@@ -22,7 +24,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.0)
 
 **How to support iOS 14 devices with Xcode 11.5+:**</br> (tested with 11.6 (11E708))
 
-**[Download iOS 14.0 Support Files](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip)** </br>
+**[Download iOS 14.2 Support Files](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.2.zip)** </br>
 **Unzip it**</br>
 **Put unzipped folder in into path:**</br>
 ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
