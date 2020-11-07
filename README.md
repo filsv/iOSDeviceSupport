@@ -17,8 +17,8 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.2)
 </br>
 
 
-⚠️ Warning
-Xcode 12 Release notes: </br>
+⚠️ **Warning**
+</br>
 Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
 These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions. These OS versions also refuse debugger connections from older Xcode releases. Xcode 12 continues to support debugging for older OS versions, but without the new encryption. </br>
 [Thank for the comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
