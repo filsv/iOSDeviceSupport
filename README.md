@@ -3,6 +3,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.2)
 
 **Latest releases:**</br>
 
+**iOS 14.3** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.3.zip) </br>
 **iOS 14.2** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.2.zip) </br>
 **iOS 14.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.1.zip) </br>
 **iOS 14.0** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip) </br>
