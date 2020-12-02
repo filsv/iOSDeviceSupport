@@ -18,7 +18,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 14.2)
 </br>
 
 
-⚠️ **Warning**
+⚠️  **Warning** ⚠️
 </br>
 ```diff
 Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
