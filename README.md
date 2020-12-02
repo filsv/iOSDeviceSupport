@@ -27,7 +27,7 @@ These security benefits are available when Xcode 12 connects to devices running 
 ```diff
 For debugging in iOS 14 devices you need Xcode 12 atleast. 
 Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
-[Thank to this comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146) </br>
+[Thank to this comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
 ```
 
 🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
