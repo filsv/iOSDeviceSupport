@@ -59,7 +59,7 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 
 **[Download iOS 14.2 Support Files](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.2.zip)** </br>
 **Unzip it**</br>
-**Put unzipped folder in into path:**</br>
+**Put unzipped folder into path:**</br>
 ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
 **Restart Xcode**</br>
 
