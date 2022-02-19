@@ -9,7 +9,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 15.4)
 **iOS 15.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/15.1%20(19B74).zip) </br>
 **iOS 15.0** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/15.0.zip) </br>
 
-**iOS 14+**
+**iOS 14+**</br>
 **iOS 14.7.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.7.1.zip) </br>
 **iOS 14.7** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.7.zip) </br>
 **iOS 14.6** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.6.zip) </br>
@@ -20,7 +20,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 15.4)
 **iOS 14.1** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.1.zip) </br>
 **iOS 14.0** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/14.0.zip) </br>
 
-**iOS 13+**
+**iOS 13+**</br>
 **iOS 13.7** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.7.zip) </br>
 **iOS 13.6** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.6.zip) </br>
 **iOS 13.5** - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/13.5.zip) </br>
