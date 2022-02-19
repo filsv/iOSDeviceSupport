@@ -69,7 +69,6 @@ iOS 9.2 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/9
 iOS 9.1 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/9.1.zip) </br>
 iOS 9.0 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/9.0.zip) </br>
 </br>
-</br>
 
 **Note:**
 `
