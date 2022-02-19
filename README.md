@@ -31,6 +31,10 @@ iOS 13.1 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/
 </br>
 </br>
 
+**Note:**
+`
+If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, is exist "15.2", otherwise open an issue);
+`
 
 ⚠️  **Warning** ⚠️
 </br>
