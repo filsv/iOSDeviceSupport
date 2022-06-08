@@ -4,10 +4,10 @@ Xcode iPhoneOS DeviceSupport (6.0 - 15.4)
 
 **Most recent releases:**</br>
 
-iOS 16 - [Download](https://github.com/Tang1705/iOSDeviceSupport/blob/master/16.zip) </br>
+iOS 16 - [Download](https://github.com/Tang1705/iOSDeviceSupport/raw/master/16.0.zip) </br>
 
 **iOS 15+**</br>
-iOS 15.5 - [Download](https://github.com/Tang1705/iOSDeviceSupport/blob/master/15.5.zip) </br>
+iOS 15.5 - [Download](https://github.com/Tang1705/iOSDeviceSupport/raw/master/15.5.zip) </br>
 iOS 15.4 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/15.4.zip) </br>
 iOS 15.3 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/15.3.zip) </br>
 iOS 15.2 - [Download](https://github.com/filsv/iPhoneOSDeviceSupport/raw/master/15.2.zip) </br>
