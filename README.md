@@ -1,10 +1,10 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 15.4)
+Xcode iPhoneOS DeviceSupport (6.0 - 16.0)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 **Most recent releases:**</br>
 
-iOS 15.5 - [Download](/15.5.zip) </br>
+iOS 16.0 - [Download](/16.0.zip) </br>
 iOS 15.4 - [Download](/15.4.zip) </br>
 iOS 15.3 - [Download](/15.3.zip) </br>
 iOS 15.2 - [Download](/15.2.zip) </br>
