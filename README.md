@@ -8,7 +8,7 @@ iOS 15.5 - [Download](/15.5.zip) </br>
 iOS 15.4 - [Download](/15.4.zip) </br>
 iOS 15.3 - [Download](/15.3.zip) </br>
 iOS 15.2 - [Download](/15.2.zip) </br>
-iOS 15.1 - [Download](/15.1%20(19B74).zip) </br>
+iOS 15.1 - [Download](/15.1.zip) </br>
 iOS 15.0 - [Download](/15.0.zip) </br>
 
 **iOS 14+**</br>
@@ -124,3 +124,5 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 5) Reopen Xcode;
 
 Thank You.
+
+Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
