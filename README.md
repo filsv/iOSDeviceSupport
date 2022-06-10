@@ -123,3 +123,5 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 5) Reopen Xcode;
 
 Thank You.
+
+Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
