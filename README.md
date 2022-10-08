@@ -1,9 +1,9 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 16.0)
+Xcode iPhoneOS DeviceSupport (6.0 - 16.1)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 **Most recent releases:**</br>
-
+iOS 16.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.1.zip) </br>
 iOS 16.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.0.zip) </br>
 iOS 15.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.6.zip) </br>
 iOS 15.5 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.5.zip) </br>
@@ -84,14 +84,14 @@ If you need upper version of the support files less than 1 iteration (eg. You ha
 ```diff
 Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
 
-These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions. 
-These OS versions also refuse debugger connections from older Xcode releases. 
-Xcode 12 continues to support debugging for older OS versions, but without the new encryption. 
+These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions.
+These OS versions also refuse debugger connections from older Xcode releases.
+Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
 ```
 [Thank to this comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
 
 ```diff
-For debugging in iOS 14 devices you need Xcode 12 atleast. 
+For debugging in iOS 14 devices you need Xcode 12 atleast.
 Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
 ```
 [Thank to this comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
