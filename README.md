@@ -90,10 +90,10 @@ Turn on "Developer mode" on your iPhone.
 ```
 [From this issue.](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
-**Note:**
-`
+**Note**
+```diff
 If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, is exist "15.2", otherwise open an issue);
-`
+```
 
 ⚠️  **Warning** ⚠️
 </br>
