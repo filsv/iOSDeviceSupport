@@ -3,6 +3,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.1)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 **Most recent releases:**</br>
+iOS 16.2 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.2.zip) </br>
 iOS 16.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.1.zip) </br>
 iOS 16.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.0.zip) </br>
 iOS 15.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.6.zip) </br>
