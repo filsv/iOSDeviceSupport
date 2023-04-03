@@ -80,8 +80,9 @@ iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zi
 </br>
 
 ⚠️  **Could not locate device support files** ⚠️
-`
 If you see image similar to this:
+`
+</br>
 ![Screenshot](Assets/Could_not-locate_device_support_files.png)
 </br>
 ```diff
