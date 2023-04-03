@@ -127,11 +127,11 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 <p align="center">hierarchy like this:</p>
 
 ![alt text](/Screen%20Shot%202019-08-02%20at%2015.09.55.png)
-[Thanks to @unfor19 for updating this steps]
+
 5) Disconnect any physical target device (iPhone, iPad, etc.)
 6) Reopen Xcode;
 7) (Optional) Connect physical target device
 
-Thank You.
+[Thanks to @unfor19 for updating this [5-7] steps]</br>
 
 Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
