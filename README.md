@@ -89,7 +89,7 @@ iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zi
 ```diff
 Turn on "Developer mode" on your iPhone.
 ```
-[Thank to this]([https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146](https://github.com/filsv/iOSDeviceSupport/issues/147))
+[From this issue.](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
 **Note:**
 `
