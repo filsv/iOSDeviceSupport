@@ -86,8 +86,7 @@ iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zi
 `If you see image similar to this, follow this step:`
 </br>
 ```diff
-Turn on "Developer mode" on your iPhone.
-(Settings -> Privacy & Security -> Developer Mode)
+Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Developer Mode).
 ```
 [From this issue.](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
