@@ -80,15 +80,14 @@ iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zi
 </br>
 
 ⚠️  **Could not locate device support files** ⚠️
+</br>
 If you see image similar to this:
-`
 </br>
 ![Screenshot](Assets/Could_not-locate_device_support_files.png)
 </br>
 ```diff
 Turn on "Developer mode" on your iPhone.
 ```
-`
 [Thank to this]([https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146](https://github.com/filsv/iOSDeviceSupport/issues/147))
 
 **Note:**
