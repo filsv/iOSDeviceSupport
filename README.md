@@ -79,7 +79,7 @@ iOS 9.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.1.zi
 iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zip) </br>
 </br>
 
-⚠️  **Could not locate device support files** ⚠️
+**Could not locate device support files**
 </br>
 </br>
 ![Screenshot](Assets/Could_not-locate_device_support_files.png)
