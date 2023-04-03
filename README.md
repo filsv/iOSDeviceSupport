@@ -10,6 +10,7 @@ iOS 16.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.1.
 iOS 16.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.0.zip) </br>
 
 **iOS 15+**</br>
+iOS 15.7 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.7.zip) </br>
 iOS 15.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.6.zip) </br>
 iOS 15.5 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.5.zip) </br>
 iOS 15.4 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/15.4.zip) </br>
