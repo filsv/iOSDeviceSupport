@@ -79,6 +79,17 @@ iOS 9.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.1.zi
 iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zip) </br>
 </br>
 
+⚠️  **Could not locate device support files** ⚠️
+`
+If you see image similar to this:
+![Screenshot](Assets/Could_not-locate_device_support_files.png)
+</br>
+```diff
+Turn on "Developer mode" on your iPhone.
+```
+`
+[Thank to this]([https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146](https://github.com/filsv/iOSDeviceSupport/issues/147))
+
 **Note:**
 `
 If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, is exist "15.2", otherwise open an issue);
