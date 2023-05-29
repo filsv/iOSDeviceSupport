@@ -1,8 +1,9 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 16.4)
+Xcode iPhoneOS DeviceSupport (6.0 - 16.5)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 **Most recent releases:**</br>
+iOS 16.5 - [Download 16.4](https://github.com/filsv/iOSDeviceSupport/raw/master/16.4.zip) and rename it to "16.5"</br>
 iOS 16.4.1 - [Download 16.4](https://github.com/filsv/iOSDeviceSupport/raw/master/16.4.zip) and rename it to "16.4.1"</br>
 iOS 16.4 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.4.zip) </br>
 iOS 16.3 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.3.zip) </br>
