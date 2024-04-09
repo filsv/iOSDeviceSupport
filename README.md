@@ -1,5 +1,5 @@
 # iPhoneOSDeviceSupport
-Xcode iPhoneOS DeviceSupport (6.0 - 16.5)
+Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 **Most recent releases:**</br>
