@@ -97,19 +97,6 @@ iOS 9.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.1.zi
 iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zip) </br>
 </br>
 
-> [!NOTE]
-> **Could not locate device support files**
-> 
-> 
-> ![Screenshot](Assets/Could_not-locate_device_support_files.png)
-> 
-> If you see similar image, follow this:
-> 
-> ```diff
-> Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Developer Mode).
-> ```
-> [Resolution](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
-
 > [!IMPORTANT]
 > ** How to **:
 > 1) Download version you need listed above;
@@ -187,6 +174,19 @@ iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zi
 > ```Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/16.5```
 >
 > Thanks to @marlon-sousa for this idea ;)
+
+> [!NOTE]
+> **Could not locate device support files**
+> 
+> 
+> ![Screenshot](Assets/Could_not-locate_device_support_files.png)
+> 
+> If you see similar image, follow this:
+> 
+> ```diff
+> Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Developer Mode).
+> ```
+> [Resolution](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
 > **Note**
 > 
