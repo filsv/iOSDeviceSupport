@@ -2,6 +2,19 @@
 Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
+> [!WARNING]
+> <strong>⚠️ iOS 17+ Workaround (Xcode 14+ required):</strong><br>
+> In the terminal run:
+> </br>
+> ```shell
+> defaults write com.apple.dt.Xcode DVTEnableCoreDevice enabled
+> ```
+> </br>
+> Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device)
+>
+> I have Xcode 15 beta installed alongside Xcode 14, I'm not sure if that's required or not.
+> - [Based on this](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022)
+
 **Most recent releases:**</br>
 iOS 16.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) </br>
 iOS 16.5 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) </br>
@@ -94,24 +107,21 @@ Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Devel
 ```
 [From this issue.](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
-**Note**
-```diff
-If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, is exist "15.2", otherwise open an issue);
-```
+> **Note**
+> 
+> If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, if exists "15.2", otherwise open an issue);
+> 
 
-⚠️  **Warning** ⚠️
-</br>
-```diff
-Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
-
-These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions.
-These OS versions also refuse debugger connections from older Xcode releases.
-Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
-```
-[Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
+> [!CAUTION]
+> Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code > on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
+>
+> These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions.
+> These OS versions also refuse debugger connections from older Xcode releases.
+> Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
+> [Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
 
 ```diff
-For debugging in iOS 14 devices you need Xcode 12 atleast.
+For debugging in iOS 14 devices you need at least Xcode 12.
 Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
 ```
 [Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
@@ -130,23 +140,23 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
 **Restart Xcode**</br>
 
-**How to:**
-
-1) Download version you need listed above;
-2) Unzip it;
-3) Close Xcode;
-4) Copy and paste unziped folder by path:
-
-```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```
-
-<p align="center">hierarchy like this:</p>
-
-![alt text](/Screen%20Shot%202019-08-02%20at%2015.09.55.png)
-
-5) Disconnect any physical target device (iPhone, iPad, etc.)
-6) Reopen Xcode;
-7) (Optional) Connect physical target device
-
-[Thanks to @unfor19 for updating this [5-7] steps]</br>
+> [!IMPORTANT]
+> How to:
+> 1) Download version you need listed above;
+> 2) Unzip it;
+> 3) Close Xcode;
+> 4) Copy and paste unziped folder by path:
+>
+> ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```
+>
+> <p align="left">Hierarchy:</p>
+>
+> ![alt text](/Screen%20Shot%202019-08-02%20at%2015.09.55.png)
+>
+> 5) Disconnect any physical target device (iPhone, iPad, etc.)
+> 6) Reopen Xcode;
+> 7) (Optional) Connect physical target device
+>
+> - [Thanks to @unfor19 for updating this [5-7] steps]</br>
 
 Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
