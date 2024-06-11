@@ -3,17 +3,17 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 > [!WARNING]
-> <strong>⚠️ iOS 17+ Workaround (Xcode 14+ required):</strong><br>
+> <strong>iOS 17+ Workaround (Xcode 14+ required):</strong><br>
 > In the terminal run:
 > </br>
 > ```shell
 > defaults write com.apple.dt.Xcode DVTEnableCoreDevice enabled
 > ```
-> </br>
+> 
 > Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device)
 >
 > I have Xcode 15 beta installed alongside Xcode 14, I'm not sure if that's required or not.
-> - [Based on this](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022)
+> [Based on this](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022)
 
 **Most recent releases:**</br>
 iOS 16.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) </br>
@@ -97,50 +97,18 @@ iOS 9.1 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.1.zi
 iOS 9.0 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/9.0.zip) </br>
 </br>
 
-**Could not locate device support files**
-</br>
-</br>
-![Screenshot](Assets/Could_not-locate_device_support_files.png)
-</br>
-`If you see image similar to this, follow this step:`
-</br>
-```diff
-Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Developer Mode).
-```
-[From this issue.](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
-
-> **Note**
+> [!NOTE]
+> **Could not locate device support files**
 > 
-> If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, if exists "15.2", otherwise open an issue);
 > 
-
-> [!CAUTION]
-> Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code > on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
->
-> These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions.
-> These OS versions also refuse debugger connections from older Xcode releases.
-> Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
-> [Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
-
-```diff
-For debugging in iOS 14 devices you need at least Xcode 12.
-Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
-```
-[Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
-
-🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
-```diff
-- To get iOS 13.(version) [example iOS 13.5.1] works with iOS 14.0, just rename a folder.
-- Like this: 13.5 ~> 13.5.1 (17F80);
-```
-
-**How to support iOS 14 devices with Xcode 11.5+:**</br> (tested with 11.6 (11E708))
-
-**[Download iOS 14.2 Support Files](/14.2.zip)** </br>
-**Unzip it**</br>
-**Put unzipped folder into path:**</br>
-```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
-**Restart Xcode**</br>
+> ![Screenshot](Assets/Could_not-locate_device_support_files.png)
+> 
+> If you see similar image, follow this:
+> 
+> ```diff
+> Turn on "Developer mode" on your iPhone (Settings -> Privacy & Security -> Developer Mode).
+> ```
+> [Resolution](https://github.com/filsv/iOSDeviceSupport/issues/147)</br>
 
 > [!IMPORTANT]
 > ** How to **:
@@ -219,5 +187,38 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 > ```Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/16.5```
 >
 > Thanks to @marlon-sousa for this idea ;)
+
+> **Note**
+> 
+> If you need upper version of the support files less than 1 iteration (eg. You have "15.0" and you need "15.1.5" - You can simply rename folder from "15.0" to "15.1.5" and it should work or try to use next iteration version of the support files, if exists "15.2", otherwise open an issue);
+> 
+
+> [!CAUTION]
+> Xcode 12 now encrypts the connection between Xcode and paired devices, protecting against an attacker in a privileged network position executing arbitrary code > on connected iOS, iPadOS, watchOS, or tvOS devices during a remote debug session. (60386733)
+>
+> These security benefits are available when Xcode 12 connects to devices running iOS 14, iPadOS 14, watchOS 7, tvOS 14, or later versions.
+> These OS versions also refuse debugger connections from older Xcode releases.
+> Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
+> [Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
+
+```diff
+For debugging in iOS 14 devices you need at least Xcode 12.
+Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
+```
+[Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
+
+🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
+```diff
+- To get iOS 13.(version) [example iOS 13.5.1] works with iOS 14.0, just rename a folder.
+- Like this: 13.5 ~> 13.5.1 (17F80);
+```
+
+**How to support iOS 14 devices with Xcode 11.5+:**</br> (tested with 11.6 (11E708))
+
+**[Download iOS 14.2 Support Files](/14.2.zip)** </br>
+**Unzip it**</br>
+**Put unzipped folder into path:**</br>
+```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
+**Restart Xcode**</br>
 
 Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
