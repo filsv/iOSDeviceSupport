@@ -10,9 +10,10 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 > defaults write com.apple.dt.Xcode DVTEnableCoreDevice enabled
 > ```
 > 
-> Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device)
+> "Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device)"
 >
-> I have Xcode 15 beta installed alongside Xcode 14, I'm not sure if that's required or not.
+> "I have Xcode 15 beta installed alongside Xcode 14, I'm not sure if that's required or not."
+> 
 > [Based on this](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022)
 
 **Most recent releases:**</br>
