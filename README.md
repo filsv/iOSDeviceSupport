@@ -143,7 +143,7 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 **Restart Xcode**</br>
 
 > [!IMPORTANT]
-> How to:
+> ** How to **:
 > 1) Download version you need listed above;
 > 2) Unzip it;
 > 3) Close Xcode;
@@ -160,5 +160,64 @@ Cause Apple have updated their code for debugging apps on iOS 14 and that is not
 > 7) (Optional) Connect physical target device
 >
 > - [Thanks to @unfor19 for updating this [5-7] steps]</br>
+> Text representation of the folder hierarchy:
+> 
+> ```
+> Xcode-beta.app
+> ├── Contents
+> │   ├── _CodeSignature
+> │   ├── Applications
+> │   ├── Developer
+> │   │   ├── Applications
+> │   │   ├── Library
+> │   │   ├── Makefiles
+> │   │   ├── Platforms
+> │   │   │   ├── AppleTVOS.platform
+> │   │   │   ├── AppleTVSimulator.platform
+> │   │   │   ├── iPhoneOS.platform
+> │   │   │   │   ├── _CodeSignature
+> │   │   │   │   ├── Developer
+> │   │   │   │   ├── DeviceSupport
+> │   │   │   │   │   ├── 8.0
+> │   │   │   │   │   ├── 8.1
+> │   │   │   │   │   ├── 8.2
+> │   │   │   │   │   ├── 8.3
+> │   │   │   │   │   ├── 8.4
+> │   │   │   │   │   ├── 9.0
+> │   │   │   │   │   ├── 9.1
+> │   │   │   │   │   ├── 9.2
+> │   │   │   │   │   ├── 9.3
+> │   │   │   │   │   ├── 10.0
+> │   │   │   │   │   ├── 10.1
+> │   │   │   │   │   ├── 10.2
+> │   │   │   │   │   ├── 10.3
+> │   │   │   │   │   ├── 11.0
+> │   │   │   │   │   ├── 11.1
+> │   │   │   │   │   ├── 11.2
+> │   │   │   │   │   ├── 11.3
+> │   │   │   │   │   ├── 11.4
+> │   │   │   │   │   ├── 12.0
+> │   │   │   │   │   ├── 12.1
+> │   │   │   │   │   ├── 12.2
+> │   │   │   │   │   ├── 12.3
+> │   │   │   │   │   ├── 13.0
+> │   │   │   │   │   ├── * PUT VERSION HERE (unzip and put it here) *
+> │   │   │   ├── icon.icns
+> │   │   │   ├── info.plist
+> │   │   │   ├── Library
+> │   │   │   ├── usr
+> │   │   │   ├── version.plist
+> │   │   │   ├── MacOSX.platform
+> │   │   │   ├── WatchOS.platform
+> │   │   │   ├── WatchSimulator.platform
+> │   │   ├── Toolchains
+> │   │   ├── Tools
+> │   │   ├── usr
+> │   ├── Frameworks
+> ```
+> Path: ```Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/NEW_VERSION_FOLDER```
+> ```Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/16.5```
+>
+> Thanks to @marlon-sousa for this idea ;)
 
 Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
