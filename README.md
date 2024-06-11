@@ -208,25 +208,11 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 > These OS versions also refuse debugger connections from older Xcode releases.
 > Xcode 12 continues to support debugging for older OS versions, but without the new encryption.
 > [Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/69#issuecomment-694508149) </br>
-
-```diff
-For debugging in iOS 14 devices you need at least Xcode 12.
-Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
-```
-[Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
-
-🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
-```diff
-- To get iOS 13.(version) [example iOS 13.5.1] works with iOS 14.0, just rename a folder.
-- Like this: 13.5 ~> 13.5.1 (17F80);
-```
-
-**How to support iOS 14 devices with Xcode 11.5+:**</br> (tested with 11.6 (11E708))
-
-**[Download iOS 14.2 Support Files](/14.2.zip)** </br>
-**Unzip it**</br>
-**Put unzipped folder into path:**</br>
-```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/```</br>
-**Restart Xcode**</br>
+>
+>```diff
+>For debugging in iOS 14 devices you need at least Xcode 12.
+>Cause Apple have updated their code for debugging apps on iOS 14 and that is not compatible on older version of Xcode.
+>```
+>[Comment](https://github.com/filsv/iPhoneOSDeviceSupport/issues/76#issuecomment-735321146)
 
 Xcode usage license - [Link](https://www.apple.com/legal/sla/docs/xcode.pdf).
