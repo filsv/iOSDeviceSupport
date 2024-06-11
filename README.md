@@ -17,6 +17,7 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 
 **Most recent releases:**</br>
 iOS 16.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) </br>
+iOS 16.5.1 [Workaround](https://github.com/filsv/iOSDeviceSupport/issues/170#issuecomment-1625668545) </br>
 iOS 16.5 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) </br>
 iOS 16.4 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.4.zip) </br>
 iOS 16.3 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.3.zip) </br>
