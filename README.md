@@ -18,6 +18,9 @@ Xcode iPhoneOS DeviceSupport (6.0 - 16.6)
 
 **Most recent releases:**</br>
 iOS 17.0 - [Workaround](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022) </br>
+iOS 16.9 - Not Exist (use [16.5](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) or [16.6](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) and rename to 16.9)</br>
+iOS 16.8 - Not Exist (use [16.5](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) or [16.6](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) and rename to 16.8)</br>
+iOS 16.7 - Not Exist (use [16.5](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) or [16.6](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) and rename to 16.7)</br>
 iOS 16.6 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) </br>
 iOS 16.5.1 [Workaround](https://github.com/filsv/iOSDeviceSupport/issues/170#issuecomment-1625668545) </br>
 iOS 16.5 - [Download](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) </br>
