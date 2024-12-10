@@ -52,6 +52,8 @@ fi
 # Unzip the downloaded file
 echo "Unzipping the downloaded file..."
 unzip -q "$TEMP_DIR/$FALLBACK_VERSION.zip" -d "$TEMP_DIR"
+chmod -R 755 "$TEMP_DIR/$FALLBACK_VERSION"
+chown -R $(whoami) "$TEMP_DIR/$FALLBACK_VERSION"
 if [[ $? -ne 0 ]]; then
     echo "Error: Failed to unzip the file. The downloaded file might be corrupted."
     rm -rf "$TEMP_DIR"
