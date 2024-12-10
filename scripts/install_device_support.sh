@@ -15,18 +15,18 @@ FALLBACK_VERSIONS["16.7"]="16.5"
 # Prompt for iOS version
 read -p "Enter the iOS version (e.g., 16.6): " IOS_VERSION
 
+# Validate input format (must be X.Y, e.g., 16.6)
+if [[ ! "$IOS_VERSION" =~ ^[0-9]+\.[0-9]+$ ]]; then
+    echo "Error: Invalid version format. Please use a format like '16.6'."
+    exit 1
+fi
+
 # Check if the version has a fallback
 if [[ -n "${FALLBACK_VERSIONS["$IOS_VERSION"]}" ]]; then
     echo "Version $IOS_VERSION does not exist. Using fallback version ${FALLBACK_VERSIONS["$IOS_VERSION"]} instead."
     FALLBACK_VERSION="${FALLBACK_VERSIONS["$IOS_VERSION"]}"
 else
     FALLBACK_VERSION="$IOS_VERSION"
-fi
-
-# Validate input format (must be X.Y, e.g., 16.6)
-if [[ ! "$IOS_VERSION" =~ ^[0-9]+\.[0-9]+$ ]]; then
-    echo "Error: Invalid version format. Please use a format like '16.6'."
-    exit 1
 fi
 
 # Generate the download URL
