@@ -2,6 +2,20 @@
 Xcode iPhoneOS DeviceSupport (6.0 - 17.0)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
+> [!NOTE]
+> ![NEW](https://img.shields.io/badge/NEW-red?style=flat)
+> Easily install iOS Device Support files for Xcode using this terminal script:
+```bash
+bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/scripts/install_device_support.sh)
+```
+> Steps:
+> 1.	Copy and paste the command into your terminal and press Enter.
+> 2.	Enter the desired iOS version (e.g., 16.6) when prompted.
+> 3.	Enter your macOS password when asked (required to copy files into Xcode’s system directory).
+> 4.	Sit back and let the script handle everything for you!
+>
+</br>
+
 > [!WARNING]
 > <strong>iOS 17+ Workaround (Xcode 14+ required):</strong><br>
 > In the terminal run:
