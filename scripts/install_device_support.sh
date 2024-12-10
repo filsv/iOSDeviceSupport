@@ -7,19 +7,23 @@ REPO_BASE_URL="https://github.com/filsv/iOSDeviceSupport/raw/master"
 DEVICE_SUPPORT_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport"
 
 # Fallback mapping for unavailable versions
-declare -A FALLBACK_VERSIONS=(
-    ["16.9"]="16.5"
-    ["16.8"]="16.5"
-    ["16.7"]="16.5"
-)
+declare -A FALLBACK_VERSIONS
+FALLBACK_VERSIONS["16.9"]="16.5"
+FALLBACK_VERSIONS["16.8"]="16.5"
+FALLBACK_VERSIONS["16.7"]="16.5"
 
 # Prompt for iOS version
 read -p "Enter the iOS version (e.g., 16.6): " IOS_VERSION
 
 # Check if the version has a fallback
-FALLBACK_VERSION=${FALLBACK_VERSIONS["$IOS_VERSION"]:-$IOS_VERSION}
+if [[ -n "${FALLBACK_VERSIONS["$IOS_VERSION"]}" ]]; then
+    echo "Version $IOS_VERSION does not exist. Using fallback version ${FALLBACK_VERSIONS["$IOS_VERSION"]} instead."
+    FALLBACK_VERSION="${FALLBACK_VERSIONS["$IOS_VERSION"]}"
+else
+    FALLBACK_VERSION="$IOS_VERSION"
+fi
 
-# Validate input to ensure it's treated as a string
+# Validate input format (must be X.Y, e.g., 16.6)
 if [[ ! "$IOS_VERSION" =~ ^[0-9]+\.[0-9]+$ ]]; then
     echo "Error: Invalid version format. Please use a format like '16.6'."
     exit 1
