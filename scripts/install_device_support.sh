@@ -6,16 +6,11 @@ REPO_BASE_URL="https://github.com/filsv/iOSDeviceSupport/raw/master"
 # DeviceSupport directory in Xcode
 DEVICE_SUPPORT_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport"
 
-# Function to get the fallback version for unsupported versions
+# Function to determine fallback version for unsupported versions
 get_fallback_version() {
-    local version=$1
-    case "$version" in
-        16.9|16.8|16.7)
-            echo "16.5"
-            ;;
-        *)
-            echo "$version"
-            ;;
+    case "$1" in
+        16.9|16.8|16.7) echo "16.5" ;;
+        *) echo "$1" ;;
     esac
 }
 
@@ -28,7 +23,7 @@ if [[ ! "$IOS_VERSION" =~ ^[0-9]+\.[0-9]+$ ]]; then
     exit 1
 fi
 
-# Determine the fallback version if needed
+# Determine the fallback version
 FALLBACK_VERSION=$(get_fallback_version "$IOS_VERSION")
 
 # Generate the download URL
