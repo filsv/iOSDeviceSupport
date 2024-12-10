@@ -36,7 +36,6 @@ TEMP_DIR=$(mktemp -d)
 echo "Checking availability for iOS Device Support files for version $FALLBACK_VERSION..."
 if ! curl --head --silent --fail "$DOWNLOAD_URL" > /dev/null; then
     echo "Error: Device Support files for iOS version $FALLBACK_VERSION do not exist."
-    echo "Please check the available versions and try again."
     rm -rf "$TEMP_DIR"
     exit 1
 fi
@@ -44,14 +43,24 @@ fi
 # Download the zip file
 echo "Downloading iOS Device Support files for version $FALLBACK_VERSION..."
 curl -L "$DOWNLOAD_URL" -o "$TEMP_DIR/$FALLBACK_VERSION.zip"
+if [[ $? -ne 0 ]]; then
+    echo "Error: Failed to download the file from $DOWNLOAD_URL."
+    rm -rf "$TEMP_DIR"
+    exit 1
+fi
 
 # Unzip the downloaded file
 echo "Unzipping the downloaded file..."
 unzip -q "$TEMP_DIR/$FALLBACK_VERSION.zip" -d "$TEMP_DIR"
+if [[ $? -ne 0 ]]; then
+    echo "Error: Failed to unzip the file. The downloaded file might be corrupted."
+    rm -rf "$TEMP_DIR"
+    exit 1
+fi
 
-# Verify the unzipped folder exists
-if [ ! -d "$TEMP_DIR/$FALLBACK_VERSION" ]; then
-    echo "Error: The unzipped folder does not match the expected structure."
+# Verify the unzipped folder exists and is not empty
+if [[ ! -d "$TEMP_DIR/$FALLBACK_VERSION" || -z "$(ls -A $TEMP_DIR/$FALLBACK_VERSION)" ]]; then
+    echo "Error: The unzipped folder is empty or does not match the expected structure."
     rm -rf "$TEMP_DIR"
     exit 1
 fi
@@ -59,11 +68,39 @@ fi
 # Copy the files to the DeviceSupport directory
 echo "Installing to $DEVICE_SUPPORT_DIR..."
 sudo cp -R "$TEMP_DIR/$FALLBACK_VERSION" "$DEVICE_SUPPORT_DIR/"
+if [[ $? -ne 0 ]]; then
+    echo "Error: Failed to copy files to $DEVICE_SUPPORT_DIR. Ensure you have sudo access."
+    rm -rf "$TEMP_DIR"
+    exit 1
+fi
+
+# Adjust permissions to make the folder accessible
+sudo chmod -R 755 "$DEVICE_SUPPORT_DIR/$FALLBACK_VERSION"
+sudo chown -R $(whoami) "$DEVICE_SUPPORT_DIR/$FALLBACK_VERSION"
 
 # Rename if using a fallback
 if [[ "$IOS_VERSION" != "$FALLBACK_VERSION" ]]; then
     echo "Renaming the installed folder to match version $IOS_VERSION..."
     sudo mv "$DEVICE_SUPPORT_DIR/$FALLBACK_VERSION" "$DEVICE_SUPPORT_DIR/$IOS_VERSION"
+    sudo chmod -R 755 "$DEVICE_SUPPORT_DIR/$IOS_VERSION"
+    sudo chown -R $(whoami) "$DEVICE_SUPPORT_DIR/$IOS_VERSION"
+    if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to rename the folder to $IOS_VERSION."
+        rm -rf "$TEMP_DIR"
+        exit 1
+    fi
+    echo "Note: Files were downloaded for $FALLBACK_VERSION but renamed to $IOS_VERSION for compatibility."
+fi
+
+# Rename if using a fallback
+if [[ "$IOS_VERSION" != "$FALLBACK_VERSION" ]]; then
+    echo "Renaming the installed folder to match version $IOS_VERSION..."
+    sudo mv "$DEVICE_SUPPORT_DIR/$FALLBACK_VERSION" "$DEVICE_SUPPORT_DIR/$IOS_VERSION"
+    if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to rename the folder to $IOS_VERSION."
+        rm -rf "$TEMP_DIR"
+        exit 1
+    fi
     echo "Note: Files were downloaded for $FALLBACK_VERSION but renamed to $IOS_VERSION for compatibility."
 fi
 
