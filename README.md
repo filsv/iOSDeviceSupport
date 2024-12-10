@@ -130,7 +130,7 @@ bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/s
 >
 > <p align="left">Hierarchy:</p>
 >
-> ![alt text](/Screen%20Shot%202019-08-02%20at%2015.09.55.png)
+> ![alt text](/Assets/support_files_hierarchy.png)
 >
 > 5) Disconnect any physical target device (iPhone, iPad, etc.)
 > 6) Reopen Xcode;
