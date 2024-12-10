@@ -6,7 +6,7 @@ REPO_BASE_URL="https://github.com/filsv/iOSDeviceSupport/raw/master"
 # DeviceSupport directory in Xcode
 DEVICE_SUPPORT_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport"
 
-# Fallback mapping for unavailable versions
+# Fallback mapping for unavailable versions (string keys)
 declare -A FALLBACK_VERSIONS=(
     ["16.9"]="16.5"
     ["16.8"]="16.5"
@@ -17,7 +17,12 @@ declare -A FALLBACK_VERSIONS=(
 read -p "Enter the iOS version (e.g., 16.6): " IOS_VERSION
 
 # Check if the version has a fallback
-FALLBACK_VERSION=${FALLBACK_VERSIONS[$IOS_VERSION]:-$IOS_VERSION}
+if [[ -n "${FALLBACK_VERSIONS[$IOS_VERSION]}" ]]; then
+    echo "Version $IOS_VERSION does not exist. Using fallback version ${FALLBACK_VERSIONS[$IOS_VERSION]} instead."
+    FALLBACK_VERSION=${FALLBACK_VERSIONS[$IOS_VERSION]}
+else
+    FALLBACK_VERSION=$IOS_VERSION
+fi
 
 # Generate the download URL
 DOWNLOAD_URL="$REPO_BASE_URL/$FALLBACK_VERSION.zip"
