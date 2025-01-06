@@ -17,7 +17,7 @@ bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/s
 </br>
 
 > [!WARNING]
-> <strong>iOS 17+ Workaround (Xcode 14+ required):</strong><br>
+> [<strong>iOS 17+ Workaround (Xcode 14+ required):</strong><br>](#ios17workaround)
 > In the terminal run:
 > </br>
 > ```shell
