@@ -122,7 +122,7 @@ bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/s
 </br>
 
 > [!IMPORTANT]
-> **How to**:
+> **Manually**:
 > 1) Download version you need listed above;
 > 2) Unzip it;
 > 3) Close Xcode;
