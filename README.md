@@ -23,10 +23,12 @@ bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/s
 > ```shell
 > defaults write com.apple.dt.Xcode DVTEnableCoreDevice enabled
 > ```
-> 
-> "Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device)"
 >
-> "I have Xcode 15 beta installed alongside Xcode 14, I'm not sure if that's required or not."
+> Then restart Xcode 14 the iOS 17 device will show up in Xcode like below and you can run and debug the app as usual. (You may need to go to Devices and Simulators to pair/trust the device).
+>
+> I have Xcode 15 beta installed alongside Xcode 14, ~I'm not sure if that's required or not.~
+>
+> **Important Point**: It turns out Xcode 15 is required to complete initial device setup for development.After the device setup is completed on Xcode 15, iOS 17 devices can be used with Xcode 14 too.
 > 
 > [Based on this](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022)
 
