@@ -35,7 +35,7 @@ bash <(curl -s https://raw.githubusercontent.com/filsv/iOSDeviceSupport/master/s
 **Most recent releases:**
 
 **iOS 17+**</br>
-> iOS 17.0 - [Workaround](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022) </br>
+> iOS 17.0 - [Workaround](https://forums.developer.apple.com/forums/thread/730947?answerId=758061022#758061022) or [StackOverflow](https://stackoverflow.com/questions/76412754/how-to-run-on-ios-17-device-using-xcode-14) </br>
 
 **iOS 16+**</br>
 > iOS 16.9 - Not Exist (use [16.5](https://github.com/filsv/iOSDeviceSupport/raw/master/16.5.zip) or [16.6](https://github.com/filsv/iOSDeviceSupport/raw/master/16.6.zip) and rename to 16.9)</br>
