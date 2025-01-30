@@ -3,6 +3,10 @@ Xcode iPhoneOS DeviceSupport (6.0 - 17.0)
 [[WatchOS](https://github.com/filsv/watchOSDeviceSupport) | [tvOS](https://github.com/filsv/TVOSDeviceSupport)];
 
 > [!NOTE]
+**Bonus Tip: Free Up Disk Space from Xcode Caches using**
+> **[Clean My Xcode](https://github.com/filsv/clean-my-xcode)**
+
+> [!NOTE]
 > ![NEW](https://img.shields.io/badge/NEW-red?style=flat)
 > Easily install iOS Device Support files for Xcode using this terminal script:
 ```bash
